@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.movie-detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2.31rem;
+    margin-right: 3.19rem;
+}
+
+.trailer {
+    border-radius: 1.25rem;
+    background: lightgray 50% / cover no-repeat;
+    height: 28.0625rem;
+    margin-top: 2.38rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-top: 1.94rem;
+    /* width: 70%; */
+}
+
+.movie-title, .movie-release-date, .movie-runtime {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: fit-content;
+    padding: 0 .5rem;
+}
+
+.movie-title {
+    padding-left: 0;
+}
+
+.genres {
+    color: #B91C1C;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.25rem 1.13rem;
+    border-radius: 0.9375rem;
+    border: 1px solid #F8E7EB;
+    margin-left: 0.69rem;
+}
+
+.movie-overview {
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.56rem;
+    width: 70%;
+}
+
+.home {
+    border-radius: 0.625rem;
+    background: #BE123C;
+    padding: 0.81rem 1.25rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1.87rem;
+    margin-bottom: 2.56rem;
+
+}
