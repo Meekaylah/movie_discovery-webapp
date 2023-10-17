@@ -51,7 +51,7 @@ i.fas.fa-star{
 
 .posterImage_overlay {
   position: absolute;
-  padding: 9.8rem 6.1rem;
+  padding: 9.87rem 6.1rem;
   bottom: 0px;
   height: 70%;
   display: flex;
@@ -85,10 +85,13 @@ i.fas.fa-star{
   font-size: 0.9rem;
   font-weight: 400;
   margin-bottom: .75rem;
+  width: fit-content;
+  display: flex;
 }
 
 .posterImage_imdb > span {
   padding-left: 0.625rem;
+  display: flex;
 }
 
 .posterImage_rating {

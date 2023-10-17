@@ -10,22 +10,22 @@ const Header = () => {
 
     const toggleDropdown = () => {
         setShow(!show);
-      };
+    };
 
-      useEffect(() => {
+    useEffect(() => {
         const handleOutsideClick = (e) => {
-          if (show && !e.target.closest('.dropdown_button')) {
+            if (show && !e.target.closest('.dropdown_button')) {
             setShow(!show);
-          }
+            }
         };
-      
+        
         document.body.addEventListener('click', handleOutsideClick);
-      
-      }, [show]);
+    
+    }, [show]);
 
 
     return (
-        <nav>
+        <nav id="nav">
             <div className="header">
                 <div className="headerLeft">
                     <Link to="/"><img className="header_icon" src="/Logo.png"/></Link>

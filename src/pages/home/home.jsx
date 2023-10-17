@@ -20,6 +20,19 @@ const Home = () => {
         .then(data => setPopularMovies(data.results))
     }, [])
 
+    const nav = document.getElementById('nav')
+
+    window.onscroll = function() {
+        const scrollHeight = window.scrollY
+        const height = document.querySelector(".mySwiper").offsetHeight
+        console.log('Scroll Height:',window.scrollY, 'Height:',document.querySelector(".mySwiper").offsetHeight)
+    if(scrollHeight > height - (height * 0.1)){
+        nav.style.backgroundColor = "#100f0f"
+    }else{
+        nav.style.backgroundColor = "transparent"
+    }
+    }
+
     return (
         <>
             <Header />
