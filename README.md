@@ -6,7 +6,7 @@ This repository contains a Movie Discovery Web Application built using React. Th
 
 ## User Interface
 
-The application features a responsive and visually appealing user interface designed to replicate the Figma design provided in the task. The top 10 movies are listed on the homepage, displayed in a grid layout with their movie posters. Each card component displays the movie title and release date.
+The application features a responsive and visually appealing user interface designed to replicate the [Figma design](https://www.figma.com/file/tVfgoNfhYkQaUkh8LGqRab/MovieBox-(Community)?node-id=1231%3A344&mode=dev) provided in the task. The top 10 movies are listed on the homepage, displayed in a grid layout with their movie posters. Each card component displays the movie title and release date.
 
 ## Movie Search
 
