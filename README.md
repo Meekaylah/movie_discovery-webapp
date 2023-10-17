@@ -1,10 +1,3 @@
-# Movie Discovery Website
-
-Created a movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies. Consumed data from the TMDB API.
-
-Try Code Here: https://movie-discovery-webapp-six.vercel.app/
-
-
 # Movie Discovery Web Application
 
 ## Project Overview
@@ -38,7 +31,7 @@ The application implements error handling to display meaningful error messages t
 
 ## Submission
 
-To access the frontend application, you can visit [Movie Discovery WebApp]([https://movie-discovery-webapp-six.vercel.app/]).
+To access the frontend application, you can visit [Movie Discovery WebApp](https://movie-discovery-webapp-six.vercel.app/).
 
 ### Running the Project Locally
 
