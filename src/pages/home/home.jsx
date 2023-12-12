@@ -61,10 +61,10 @@ const Home = () => {
                                     <div className="posterImage_title">{movie ? movie.original_title: ""}</div>
                                     <div className="posterImage_imdb">
                                         <img src="/imdb.svg" className="imdb_img"/>
-                                        <span>{movie ? (movie.vote_average / 10)*100 : ""}.0/100</span>
+                                        <span>{movie ? Math.ceil((movie.vote_average / 10)*100) : ""}.0/100</span>
                                         <span className="posterImage_rating">
                                             <img src="/tomato.svg" className="tomato_img"/>
-                                            {movie ? movie.vote_average*10 : ""}%
+                                            {movie ? Math.floor(movie.vote_average*10) : ""}%
                                         </span>
                                     </div>
                                     <div className="posterImage_description">{movie ? movie.overview : ""}</div>
