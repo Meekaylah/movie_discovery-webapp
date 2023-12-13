@@ -26,7 +26,7 @@ const Cards = ({movie}) => {
             <div className="movie-card" data-testid="movie-card">
                 <img src={`https://image.tmdb.org/t/p/original/${movie ? movie.poster_path : ""}`} className="movie-poster" data-testid="movie-poster" />
                 <div className="movie-card-release-date" data-testid="movie-release-date">{movie?movie.release_date:""}</div>
-                <div className="movie-card-title" data-testid="movie-title">{movie?movie.original_title:""}</div>
+                <div className="movie-card-title" data-testid="movie-title">{movie?movie.title:""}</div>
             </div>
         </Link>
     }
