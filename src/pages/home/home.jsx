@@ -57,10 +57,10 @@ const Home = () => {
                                     <img src={`https://image.tmdb.org/t/p/original/${movie && movie.backdrop_path}`} />
                                 </div>
                                 <div className="posterImage_overlay">
-                                    <div className="posterImage_title">{movie ? movie.original_title: ""}</div>
+                                    <div className="posterImage_title">{movie ? movie.title: ""}</div>
                                     <div className="posterImage_imdb">
                                         <img src="/imdb.svg" className="imdb_img"/>
-                                        <span>{movie ? Math.ceil((movie.vote_average / 10)*100) : ""}.0/100</span>
+                                        <span>{movie ? Math.ceil((movie.popularity*100)/(Math.ceil(movie.popularity/1000)*1000)): ""}.0/100</span>
                                         <span className="posterImage_rating">
                                             <img src="/tomato.svg" className="tomato_img"/>
                                             {movie ? Math.floor(movie.vote_average*10) : ""}%
